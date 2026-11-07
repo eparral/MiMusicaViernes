@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiMusicaViernes">
         <activity
+            android:name=".DetalleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
